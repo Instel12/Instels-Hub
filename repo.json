@@ -172,6 +172,18 @@
       "appID": "com.rileytestut.Clip"
     }
 ],
+  "news": [
+  {
+    "title": "Stay with Ukraine!",
+    "identifier": "StayUkraine",
+    "caption": "Stay with everybody who has lost loved ones to the Russians.",
+    "date": "1-18-2025",
+    "tintColor": "#F54F32",
+    "imageURL": "https://cdn.pixabay.com/photo/2022/03/01/12/39/flag-7041215_640.jpg",
+    "notify": true,
+    "appID": "instel.news.1"
+  }
+  ],
 "userinfo": {
 
 }
