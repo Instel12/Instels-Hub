@@ -10,7 +10,8 @@
   "tintColor": "#4aa1ff",
   "featuredApps": [
       "com.zurac.OldOS",
-      "net.namedfork.minivmac"
+      "net.namedfork.minivmac",
+      "com.rileytestut.Clip"
   ],
   "apps": [
   {
@@ -176,12 +177,11 @@
   {
     "title": "Stand With Ukraine!",
     "identifier": "support-ukraine",
-    "caption": "Find out how you can help support those impacted by the Russian invasion.",
+    "caption": "Support Ukrain during the Russian invasion.",
     "date": "2025-01-18",
     "tintColor": "003e80",
     "imageURL": "https://user-images.githubusercontent.com/705880/156053447-a158cac7-df5f-4497-8025-15c3c2e10b48.png",
-    "notify": false,
-    "url": "https://linktr.ee/razomforukraine"
+    "notify": false
   },
   {
     "title": "Hello!",
