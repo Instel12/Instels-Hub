@@ -9,7 +9,8 @@
     "website": "https://instel12.github.io/",
     "tintColor": "#4aa1ff",
     "featuredApps": [
-      "com.zurac.OldOS"
+        "com.zurac.OldOS",
+        "net.namedfork.minivmac"
     ],
     "apps": [
     {
@@ -83,32 +84,46 @@
     "appID": "com.zurac.OldOS"
     },
     {
-        "name": "Fortnite",
-        "bundleIdentifier": "com.epicgames.fortnite",
-        "developerName": "Epic Games",
-        "subtitle": "Fortnite out of Europe",
-        "localizedDescription": "",
-        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e9/cc/21/e9cc21d9-4649-16ed-e46f-2626f8f5c56d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/252x252.webp",
-        "tintColor": "#181818",
+        "name": "Mini vMac",
+        "bundleIdentifier": "net.namedfork.minivmac",
+        "developerName": "Gryphel Project & zydeco",
+        "subtitle": "A miniature early Macintosh emulator.",
+        "localizedDescription": "Features\n\n\u2022 Emulates Mac Plus, Mac II or Mac 128K\n\u2022 Full simulated keyboard (including all Mac keys)\n\u2022 Full sound output\n\u2022 Uses external keyboard if available\n\u2022 Regulable emulation speed\n\u2022 Easy(ish) to import/export disk images\n\nPlease check out the github README for usage instructions: https://github.com/zydeco/minivmac4ios",
+        "iconURL": "https://i.imgur.com/MGxGvKR.png",
+        "tintColor": "#dd2b03",
         "screenshotURLs": [
-
+          "https://i.imgur.com/Huqxo8z.png",
+          "https://i.imgur.com/Pq2vIrO.png",
+          "https://i.imgur.com/A7koKUp.png",
+          "https://i.imgur.com/IhtYS9E.png"
         ],
         "versions": [
           {
-            "absoluteVersion": "1.0.18",
-            "version": "1.0",
-            "buildVersion": "18",
-            "date": "2021-11-23T19:01:20Z",
-            "localizedDescription": "# IPA V1.0 Build 18\n\n1.0 (18):\r\n- Mail is here! This is a full-blown email client, no ifs, ands, or buts\r\n- View mailboxes, read emails, move emails, manage inbox, and send emails\r\n- Fixes to YouTube backend\r\n- Other bug fixes",
-            "downloadURL": "https://github.com/appleipa/EpicGamesIPA/releases/download/v1.1.1/Fortnite-33.20.ipa",
-            "size": 88173533,
-            "sha256": "60c65a79a5fda77cb6bb42280a379196ba0ed8be5d9c03dab1da8b76a97ddb18"
+            "absoluteVersion": "2.6",
+            "version": "2.6",
+            "buildVersion": "15",
+            "date": "2024-07-09T16:09:01Z",
+            "localizedDescription": "# Mini vMac for iOS v2.6\n\n* Added 512\u00d7384 variant of Mac II\r\n* Requires iOS 13.4\r\n    * Dropping 32-bit support (iOS 9) made the app smaller\r\n* Prefer pixel-perfect scaling when display scaling filter is set to nearest\r\n* Auto-hide iOS home indicator\r\n* Partially fix some command-key shortcuts going to iOS instead of the emulated Mac (#45)\r\n    * \u2318-w and most others will get passed to the emulated machine if it's running\r\n    * \u2318-q and \u2318-h don't seem interceptable, the app doesn't receive any key events for them, but \u2318-q doesn't do anything (or maybe it does in some other configuration?), and \u2318-h will take you to the home screen\r\n* visionOS support (only tested in simulator)\r\n\r\n**Full Changelog**: https://github.com/zydeco/minivmac4ios/compare/v2.5...v2.6",
+            "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa",
+            "size": 668434,
+            "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4"
+          },
+          {
+            "absoluteVersion": "2.5",
+            "version": "2.5",
+            "date": "2022-05-26T18:30:55Z",
+            "localizedDescription": "# Mini vMac for iOS 2.5\n\n* Update to Mini vMac 37.03 beta\r\n* Fixed crash when deleting disk images on iPad\r\n* Adds recently used disks to quick actions menu\r\n* Removed custom presentation modes for disk and settings screens\r\n* Doesn't show \"The developer of this app needs to update it to work with this version of iOS\" error when installing IPA on iOS 15",
+            "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.5/minivmac4ios-2.5.ipa",
+            "size": 1194371,
+            "sha256": "2d3fd7a540944d46c1c968dbc88434deffea93a14a54f06191436fc804e9796b"
           }
         ],
         "appPermissions": {
+          "entitlements": [],
+          "privacy": []
         },
-        "appID": "com.epicgames.fortnite"
-        }
+        "appID": "net.namedfork.minivmac"
+      }
 ],
 "userinfo": {
 
