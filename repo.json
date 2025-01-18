@@ -4,8 +4,8 @@
     "apiVersion": "v2",
     "subtitle": "Best hub for apps!",
     "description": "Welcome to Instel's Hub! Get the best apps right here very easley.",
-    "iconURL": "https://uploads.scratch.mit.edu/get_image/user/104654139_120x120.png",
-    "headerURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/banner.png",
+    "iconURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/Images/icon.png",
+    "headerURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/Images/banner.png",
     "website": "https://instel12.github.io/",
     "tintColor": "#4aa1ff",
     "featuredApps": [
