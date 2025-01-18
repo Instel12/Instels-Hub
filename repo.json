@@ -6,7 +6,7 @@
   "description": "Welcome to Instel's Hub! Instel's Hub is an actively maintained AltStore source, continuously updated to provide users with a variety of apps and tweaks not available on the official App Store. The source is regularly refreshed with new applications, bug fixes, and compatibility updates for the latest iOS versions. The focus is on delivering a seamless experience with a growing library of tools designed to enhance the iOS ecosystem, ensuring that users always have access to the most reliable and useful content available.",
   "iconURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/Images/icon.png",
   "headerURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/Images/banner.png",
-  "website": "https://instel12.github.io/",
+  "website": "https://instel12.github.io/Instels-Hub/",
   "tintColor": "#4aa1ff",
   "featuredApps": [
       "com.zurac.OldOS",
