@@ -1,178 +1,21 @@
-{
-  "name": "Instel's Hub",
-  "identifier": "com.Instel.instelshub",
-  "apiVersion": "v2",
-  "subtitle": "WIP",
-  "description": "Welcome to Instel's Hub! Get the best apps right here! I plan to add many things such as games, utilitys, emulators and simulators. Really anything I can find.",
-  "iconURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/Images/icon.png",
-  "headerURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/Images/banner.png",
-  "website": "https://instel12.github.io/",
-  "tintColor": "#4aa1ff",
-  "featuredApps": [
-      "com.zurac.OldOS",
-      "net.namedfork.minivmac"
-  ],
-  "apps": [
-  {
-  "name": "OldOS",
-  "bundleIdentifier": "com.zurac.OldOS",
-  "developerName": "zzanehip",
-  "subtitle": "OldOS is a testament to the days of iOS 4.",
-  "localizedDescription": "OldOS is a testament to the days of yesteryear, showcasing what iOS once was ten years ago. The ethos of the app is to merge the technologies of today with a pixel-perfect recreation of the user experience of the past. The vast majority of apps in OldOS are fully functional — meaning they seamlessly integrate with the data on your phone to deliver a live, emulator-esque experience. What does this mean? Well, you can play your music in iPod, get directions in Maps, surf the web in Safari, view the current weather in Weather, and much more. By the same token, no shortcuts were taken in fully fleshing out the operating system. You can change your background, adjust settings, search apps, et cetera. There are a few apps still not ready for primetime but don't worry, they're coming soon.\n\nWith OldOS, you no longer need to worry about securing a legacy iPhone to experience nostalgia — it's available on your daily driver.\n\nPart of the goal with OldOS is to enable anyone to understand how iOS works and demonstrate just how powerful SwiftUI truly is. For that reason, the entire app is open-sourced — enabling developers to learn about, modify, and add to the app. I thought building this over my last six or so months in high school and sharing it with the world would be a fun and productive endeavor.\n\nSpecial Features:\n* 🧑‍💻 Built almost entirely using SwiftUI.\n* 🎨 Designed to be as close to pixel-perfect as possible.\n* 📱 Fully functional, perhaps even usable as a second OS.\n* ❤️ A testament to the work of Apple employees of both the past and the present.\n* 🗺️ Fully open source for all to learn, modify, and build on.",
-  "iconURL": "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/master/OldOS/OldOS/Assets.xcassets/AppIcon.appiconset/1024.png",
-  "tintColor": "#181818",
-  "screenshotURLs": [
-    "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_1.jpg",
-    "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_2.jpg",
-    "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_3.jpg",
-    "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_4.jpg",
-    "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_5.jpg"
-  ],
-  "versions": [
-    {
-      "absoluteVersion": "1.0.18",
-      "version": "1.0",
-      "buildVersion": "18",
-      "date": "2021-11-23T19:01:20Z",
-      "localizedDescription": "# IPA V1.0 Build 18\n\n1.0 (18):\r\n- Mail is here! This is a full-blown email client, no ifs, ands, or buts\r\n- View mailboxes, read emails, move emails, manage inbox, and send emails\r\n- Fixes to YouTube backend\r\n- Other bug fixes",
-      "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/1.0_18/OldOS.ipa",
-      "size": 88173533,
-      "sha256": "60c65a79a5fda77cb6bb42280a379196ba0ed8be5d9c03dab1da8b76a97ddb18"
-    }
-  ],
-  "appPermissions": {
-    "entitlements": [],
-    "privacy": [
-      {
-        "name": "AppleMusic",
-        "usageDescription": "To view, play, and experience your music in OldOS, please enable access to your music library. "
-      },
-      {
-        "name": "Camera",
-        "usageDescription": "To take photos in OldOS, please enable access to your camera."
-      },
-      {
-        "name": "Contacts",
-        "usageDescription": "To view and manage your contacts in OldOS, please enable access to your contacts list."
-      },
-      {
-        "name": "LocationAlwaysAndWhenInUse",
-        "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
-      },
-      {
-        "name": "LocationAlways",
-        "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
-      },
-      {
-        "name": "LocationWhenInUse",
-        "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
-      },
-      {
-        "name": "Microphone",
-        "usageDescription": "To record your audio while filming a video in OldOS, please in enable microphone access."
-      },
-      {
-        "name": "PhotoLibraryAdd",
-        "usageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
-      },
-      {
-        "name": "PhotoLibrary",
-        "usageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
-      }
-    ]
-  },
-  "appID": "com.zurac.OldOS"
-  },
-  {
-      "name": "Mini vMac",
-      "bundleIdentifier": "net.namedfork.minivmac",
-      "developerName": "Gryphel Project & zydeco",
-      "subtitle": "A miniature early Macintosh emulator.",
-      "localizedDescription": "Features\n\n\u2022 Emulates Mac Plus, Mac II or Mac 128K\n\u2022 Full simulated keyboard (including all Mac keys)\n\u2022 Full sound output\n\u2022 Uses external keyboard if available\n\u2022 Regulable emulation speed\n\u2022 Easy(ish) to import/export disk images\n\nPlease check out the github README for usage instructions: https://github.com/zydeco/minivmac4ios",
-      "iconURL": "https://i.imgur.com/MGxGvKR.png",
-      "tintColor": "#dd2b03",
-      "screenshotURLs": [
-        "https://i.imgur.com/Huqxo8z.png",
-        "https://i.imgur.com/Pq2vIrO.png",
-        "https://i.imgur.com/A7koKUp.png",
-        "https://i.imgur.com/IhtYS9E.png"
-      ],
-      "versions": [
-        {
-          "absoluteVersion": "2.6",
-          "version": "2.6",
-          "buildVersion": "15",
-          "date": "2024-07-09T16:09:01Z",
-          "localizedDescription": "# Mini vMac for iOS v2.6\n\n* Added 512\u00d7384 variant of Mac II\r\n* Requires iOS 13.4\r\n    * Dropping 32-bit support (iOS 9) made the app smaller\r\n* Prefer pixel-perfect scaling when display scaling filter is set to nearest\r\n* Auto-hide iOS home indicator\r\n* Partially fix some command-key shortcuts going to iOS instead of the emulated Mac (#45)\r\n    * \u2318-w and most others will get passed to the emulated machine if it's running\r\n    * \u2318-q and \u2318-h don't seem interceptable, the app doesn't receive any key events for them, but \u2318-q doesn't do anything (or maybe it does in some other configuration?), and \u2318-h will take you to the home screen\r\n* visionOS support (only tested in simulator)\r\n\r\n**Full Changelog**: https://github.com/zydeco/minivmac4ios/compare/v2.5...v2.6",
-          "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.6/minivmac4ios-2.6.ipa",
-          "size": 668434,
-          "sha256": "cbe597bfd3e3e9b412ef0117a374453e51e5444db56dd46a267f9950bff64ad4"
-        },
-        {
-          "absoluteVersion": "2.5",
-          "version": "2.5",
-          "date": "2022-05-26T18:30:55Z",
-          "localizedDescription": "# Mini vMac for iOS 2.5\n\n* Update to Mini vMac 37.03 beta\r\n* Fixed crash when deleting disk images on iPad\r\n* Adds recently used disks to quick actions menu\r\n* Removed custom presentation modes for disk and settings screens\r\n* Doesn't show \"The developer of this app needs to update it to work with this version of iOS\" error when installing IPA on iOS 15",
-          "downloadURL": "https://github.com/zydeco/minivmac4ios/releases/download/v2.5/minivmac4ios-2.5.ipa",
-          "size": 1194371,
-          "sha256": "2d3fd7a540944d46c1c968dbc88434deffea93a14a54f06191436fc804e9796b"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": []
-      },
-      "appID": "net.namedfork.minivmac"
-    },
-    {
-      "name": "Clip",
-      "bundleIdentifier": "com.rileytestut.Clip",
-      "developerName": "Riley Testut",
-      "subtitle": "Manage your clipboard history with ease.",
-      "localizedDescription": "Clip is a simple clipboard manager for iOS. \n\nUnlike other clipboard managers, Clip can continue monitoring your clipboard while in the background. No longer do you need to remember to manually open or share to an app to save your clipboard; just copy and paste as you would normally do, and Clip will have your back.\n\nIn addition to background monitoring, Clip also has these features:\n\n\u2022 Save text, URLs, and images copied to the clipboard.\n\u2022 Copy, delete, or share any clippings saved to Clip.\n\u2022 Customizable history limit.\n\nDownload Clip today, and never worry about losing your clipboard again!",
-      "iconURL": "https://user-images.githubusercontent.com/705880/63391981-5326f800-c37a-11e9-99d8-760fd06bb601.png",
-      "tintColor": "EC008C",
-      "screenshotURLs": [
-        "https://user-images.githubusercontent.com/705880/63391950-34286600-c37a-11e9-965f-832efe3da507.png",
-        "https://user-images.githubusercontent.com/705880/70830209-8e738980-1da4-11ea-8b3b-6e5fbc78adff.png"
-      ],
-      "versions": [
-        {
-          "version": "1.1",
-          "buildVersion": "14",
-          "date": "2024-06-05T12:00:00-05:00",
-          "localizedDescription": "\u2022 Switches to using location services to run in background\n\u2022 Improves reading clipboard on iOS 17",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/clip/1_1.ipa",
-          "size": 601183,
-          "sha256": "69bb0ef2c4419f043df58625733232a8cc899bfaba5e5325202919a1a582916a",
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "1.0",
-          "date": "2020-06-17T12:30:00-07:00",
-          "localizedDescription": "Initial version \ud83c\udf89",
-          "downloadURL": "https://f000.backblazeb2.com/file/altstore/apps/clip/1_0.ipa",
-          "size": 445056,
-          "sha256": "3ac73fe85b6bf7e5433582db73f27edd4d6ff8d4859569460ad4f5159297f63f"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": [
-          {
-            "name": "LocationAlwaysAndWhenInUse",
-            "usageDescription": "Clip requires \u201cAlways\u201d location permission to automatically tag clippings with your location. Your location data never leaves this device."
-          },
-          {
-            "name": "LocationWhenInUse",
-            "usageDescription": "Clip requires location permissions to automatically tag clippings with your location. Your location data never leaves this device."
-          }
-        ]
-      },
-      "appID": "com.rileytestut.Clip"
-    }
-],
-"userinfo": {
-
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
+.banner{
+    width: 100%;
+}
+.content{
+    background: rgb(255,225,175);
+    background: linear-gradient(180deg, rgba(255,225,175,1) 0%, rgba(182,182,255,1) 100%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    border: 0px solid;
+    padding: 20px;
+    box-shadow: 5px 10px #888888;
+}
+a{
+    color: rgb(0, 119, 255);
 }
