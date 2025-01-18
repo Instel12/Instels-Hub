@@ -3,7 +3,7 @@
   "identifier": "com.Instel.instelshub",
   "apiVersion": "v2",
   "subtitle": "WIP",
-  "description": "Welcome to Instel's Hub! Get the best apps right here! I plan to add many things such as games, utilitys, emulators and simulators. Really anything I can find.",
+  "description": "Welcome to Instel's Hub! Instel's Hub is an actively maintained AltStore source, continuously updated to provide users with a variety of apps and tweaks not available on the official App Store. The source is regularly refreshed with new applications, bug fixes, and compatibility updates for the latest iOS versions. The focus is on delivering a seamless experience with a growing library of tools designed to enhance the iOS ecosystem, ensuring that users always have access to the most reliable and useful content available.",
   "iconURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/Images/icon.png",
   "headerURL": "https://raw.githubusercontent.com/Instel12/Instels-Hub/refs/heads/main/Images/banner.png",
   "website": "https://instel12.github.io/",
@@ -166,6 +166,42 @@
           {
             "name": "LocationWhenInUse",
             "usageDescription": "Clip requires location permissions to automatically tag clippings with your location. Your location data never leaves this device."
+          },
+          {
+            "name": "Unc0ver",
+            "subtitle": "The most advanced jailbreak tool",
+            "bundleIdentifier": "science.xnu.undecimus",
+            "developerName": "Pwn20wnd",
+            "version": "8.0.2",
+            "versionDate": "2021-12-29T16:00:00-06:00",
+            "versionDescription": "Add exploit guidance to improve reliability on A12-A13 iPhones running iOS 14.6-14.8",
+            "downloadURL": "https://unc0ver.dev/downloads/8.0.2/9e44edfbfd1905cadf23c3b9ad1d5bed683ce061/unc0ver_Release_8.0.2.ipa",
+            "localizedDescription": "The most advanced jailbreak tool for iOS 11.0 to iOS 14.3\n\nStable: Utilizing proper and deterministic techniques, jail​break stability is guaranteed.\nSecure: Utilizing native system sandbox exceptions, security remains intact while enabling access to jailbreak files.\nExtensively Tested: Unc0ver has been extensively tested to ensure it's a seamless experience on all devices.",
+            "iconURL": "https://github.com/pwn20wndstuff/Undecimus/raw/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png",
+            "tintColor": "000000",
+            "size": 54489484,
+            "screenshotURLs": [
+              "https://i.imgur.com/I3aRpPO.jpg",
+              "https://i.imgur.com/mERBTaF.jpg"
+            ]
+          },
+          {
+            "bundleIdentifier": "com.electrateam.chimera",
+            "developerName": "Electra Team",
+            "downloadURL": "https://github.com/coolstar/electra-ipas/raw/master/chimera/1.6.4-12.2-12.5.ipa",
+            "iconURL": "https://chimera.coolstar.org/img/icon.png",
+            "localizedDescription": "Jailbreak for all devices, from iOS 12.2 to 12.5.1\n\nNote: Only Nonce setter available on 12.1.2 - 12.3 and 12.4 on A12\nNote: 12.1.3 - 12.5.1 only supported on A7 - A11 devices. All devices supported on 12.0 - 12.1.2\nOn iOS 12 to 12.1.2? Download the IPA from https://chimera.sh instead! (why are you on such an old ios tho)",
+            "name": "Chimera",
+            "screenshotURLs": [
+              "https://chimera.coolstar.org/img/jumbotron.png",
+              "https://i.imgur.com/dpeAFtg.jpg"
+            ],
+            "size": 34432392,
+            "subtitle": "Your device, your way.",
+            "tintColor": "36AEB9",
+            "version": "1.6.4",
+            "versionDate": "2021-09-23T10:00:00-06:00",
+            "versionDescription": "* Adds full support for iOS 12.5.5\n* Updates Sileo to 2.2.3\n* Removes fancy animation background on iPhone 5S / 6, iPad Air 1, iPod touch 6 and iPad mini 2 / 3 to use a more basic background in order to improve exploit success rate"
           }
         ]
       },
