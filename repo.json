@@ -1,0 +1,89 @@
+{
+    "name": "Instel's Source",
+    "identifier": "com.Instel.instelsrc",
+    "apiVersion": "v2",
+    "subtitle": "Contains all of your favorite emulators, games, jailbreaks, utilities, and more.",
+    "description": "This source is an automatically kept up-to-date source, powered by GitHub Actions, the Python altparse library, and the support of independent developers. In here, you'll find anything from community maintained forks of Delta Emulator, to tiny Mac utilities that no one's ever heard of. If you have an app you'd like to see here, please use our website to reach out!",
+    "iconURL": "https://avatars.githubusercontent.com/u/135399235?v=4",
+    "headerURL": "",
+    "website": "https://instel12.github.io/",
+    "tintColor": "#ff8d29",
+    "featuredApps": [
+      "com.zurac.OldOS"
+    ],
+    "apps": [
+    {
+    "name": "OldOS",
+    "bundleIdentifier": "com.zurac.OldOS",
+    "developerName": "zzanehip",
+    "subtitle": "OldOS is a testament to the days of iOS 4.",
+    "localizedDescription": "OldOS is a testament to the days of yesteryear, showcasing what iOS once was ten years ago. The ethos of the app is to merge the technologies of today with a pixel-perfect recreation of the user experience of the past. The vast majority of apps in OldOS are fully functional — meaning they seamlessly integrate with the data on your phone to deliver a live, emulator-esque experience. What does this mean? Well, you can play your music in iPod, get directions in Maps, surf the web in Safari, view the current weather in Weather, and much more. By the same token, no shortcuts were taken in fully fleshing out the operating system. You can change your background, adjust settings, search apps, et cetera. There are a few apps still not ready for primetime but don't worry, they're coming soon.\n\nWith OldOS, you no longer need to worry about securing a legacy iPhone to experience nostalgia — it's available on your daily driver.\n\nPart of the goal with OldOS is to enable anyone to understand how iOS works and demonstrate just how powerful SwiftUI truly is. For that reason, the entire app is open-sourced — enabling developers to learn about, modify, and add to the app. I thought building this over my last six or so months in high school and sharing it with the world would be a fun and productive endeavor.\n\nSpecial Features:\n* 🧑‍💻 Built almost entirely using SwiftUI.\n* 🎨 Designed to be as close to pixel-perfect as possible.\n* 📱 Fully functional, perhaps even usable as a second OS.\n* ❤️ A testament to the work of Apple employees of both the past and the present.\n* 🗺️ Fully open source for all to learn, modify, and build on.",
+    "iconURL": "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/master/OldOS/OldOS/Assets.xcassets/AppIcon.appiconset/1024.png",
+    "tintColor": "#181818",
+    "screenshotURLs": [
+      "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_1.jpg",
+      "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_2.jpg",
+      "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_3.jpg",
+      "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_4.jpg",
+      "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_5.jpg"
+    ],
+    "versions": [
+      {
+        "absoluteVersion": "1.0.18",
+        "version": "1.0",
+        "buildVersion": "18",
+        "date": "2021-11-23T19:01:20Z",
+        "localizedDescription": "# IPA V1.0 Build 18\n\n1.0 (18):\r\n- Mail is here! This is a full-blown email client, no ifs, ands, or buts\r\n- View mailboxes, read emails, move emails, manage inbox, and send emails\r\n- Fixes to YouTube backend\r\n- Other bug fixes",
+        "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/1.0_18/OldOS.ipa",
+        "size": 88173533,
+        "sha256": "60c65a79a5fda77cb6bb42280a379196ba0ed8be5d9c03dab1da8b76a97ddb18"
+      }
+    ],
+    "appPermissions": {
+      "entitlements": [],
+      "privacy": [
+        {
+          "name": "AppleMusic",
+          "usageDescription": "To view, play, and experience your music in OldOS, please enable access to your music library. "
+        },
+        {
+          "name": "Camera",
+          "usageDescription": "To take photos in OldOS, please enable access to your camera."
+        },
+        {
+          "name": "Contacts",
+          "usageDescription": "To view and manage your contacts in OldOS, please enable access to your contacts list."
+        },
+        {
+          "name": "LocationAlwaysAndWhenInUse",
+          "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
+        },
+        {
+          "name": "LocationAlways",
+          "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
+        },
+        {
+          "name": "LocationWhenInUse",
+          "usageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app."
+        },
+        {
+          "name": "Microphone",
+          "usageDescription": "To record your audio while filming a video in OldOS, please in enable microphone access."
+        },
+        {
+          "name": "PhotoLibraryAdd",
+          "usageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
+        },
+        {
+          "name": "PhotoLibrary",
+          "usageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
+        }
+      ]
+    },
+    "appID": "com.zurac.OldOS"
+    }
+],
+"userinfo": {
+
+}
+}
