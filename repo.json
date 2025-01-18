@@ -182,6 +182,15 @@
     "imageURL": "https://user-images.githubusercontent.com/705880/156053447-a158cac7-df5f-4497-8025-15c3c2e10b48.png",
     "notify": false,
     "url": "https://linktr.ee/razomforukraine"
+  },
+  {
+    "title": "Hello!",
+    "identifier": "beginning-message",
+    "caption": "I have just started with making sources with Altstore so bear with me.",
+    "date": "2025-01-17",
+    "tintColor": "32a852",
+    "imageURL": "https://i.pinimg.com/originals/32/b0/6b/32b06b5081d1c5fe063165a41c1d2399.png",
+    "notify": false
   }
 ]
 }
