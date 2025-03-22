@@ -224,8 +224,19 @@
       "version": "1.6.4",
       "versionDate": "2021-09-23T10:00:00-06:00",
       "versionDescription": "* Adds full support for iOS 12.5.5\n* Updates Sileo to 2.2.3\n* Removes fancy animation background on iPhone 5S / 6, iPad Air 1, iPod touch 6 and iPad mini 2 / 3 to use a more basic background in order to improve exploit success rate"
-    }
-],
+    },
+    {
+  "source": "Minecraft 1.16",
+  "version": "1.16",
+  "url": "https://archive.org/download/minecraft-pocket-edition-versions-ipa/MCPE%200.16.1.ipa",
+  "size": 250000000,
+  "icon": "https://static.wikia.nocookie.net/logopedia/images/f/f9/Minecraft_Bedrock_icon.svg/revision/latest/scale-to-width-down/250?cb=20230924021517",
+  "metadata": {
+    "description": "Minecraft Pocket Edition 1.16 - Nether Update",
+    "author": "Mojang",
+    "device": "iOS"
+  }
+
 "news": [
   {
   "title": "Chimera",
